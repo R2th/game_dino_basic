@@ -20,6 +20,6 @@ let isAlive = setInterval(function () {
   }
 }, 10);
 
-document.getElementById("keydown", function (e) {
+document.addEventListener("keydown", function (e) {
   jump();
 });
